@@ -1,0 +1,821 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#eef1fb" />
+  <title>ZibCore — Websites &amp; FAQ Chatbots For Local Businesses</title>
+  <meta name="description" content="ZibCore builds modern websites and friendly FAQ chatbots for local businesses — and looks after the hosting so you don't have to." />
+  <link rel="canonical" href="https://zibcore.com/" />
+  <link rel="icon" href="logo.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="logo.svg" />
+  <meta property="og:title" content="ZibCore — Websites &amp; FAQ Chatbots For Local Businesses" />
+  <meta property="og:description" content="Modern websites and friendly FAQ chatbots for local businesses." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://zibcore.com/" />
+  <meta property="og:image" content="https://zibcore.com/assets/site-1.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="ZibCore — Websites &amp; FAQ Chatbots For Local Businesses" />
+  <meta name="twitter:description" content="Modern websites and friendly FAQ chatbots for local businesses." />
+  <meta name="twitter:image" content="https://zibcore.com/assets/site-1.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700;800&family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="chatbot.css" />
+  <link rel="stylesheet" href="cart.css" />
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <nav class="nav" id="nav">
+    <a class="nav__brand" href="index.html" aria-label="ZibCore home">
+      <img src="logo.svg" alt="" class="nav__mark" width="22" height="22" />
+      <span class="nav__word"><span class="nav__word-a">Zib</span><span class="nav__word-b">Core</span></span>
+    </a>
+    <div class="nav__links">
+      <a href="#services">Services</a>
+      <a href="#what">What You Get</a>
+      <a href="#samples">Samples</a>
+      <a href="plans.html">Pricing</a>
+      <a href="#contact" class="nav__cta">Book a Call ↗</a>
+    </div>
+  </nav>
+
+  <!-- ============ HERO — sliding showcase ============ -->
+  <header class="hero hero--showcase">
+    <!-- Backdrop: ambient light, soft grain, drifting dust -->
+    <div class="hero__bg" aria-hidden="true">
+      <div class="hero__light"></div>
+      <div class="hero__grain"></div>
+      <div class="hero__particles" id="hero-particles"></div>
+    </div>
+
+    <div class="container">
+      <div class="hero__copy hero__copy--center">
+        <p class="eyebrow reveal">Websites &amp; FAQ chatbots for local businesses</p>
+        <h1 class="hero__title reveal" data-delay="80">
+          Look professional<br/>
+          online, <em>day or night.</em>
+        </h1>
+        <p class="hero__sub reveal" data-delay="160">
+          We design clean, modern websites and set up a friendly chatbot that
+          answers your customers' common questions — any time of day.
+        </p>
+        <div class="hero__cta reveal" data-delay="240">
+          <a href="#contact" class="btn btn--primary btn--lg">Book a Call</a>
+          <a href="plans.html" class="btn btn--ghost btn--lg">See Pricing</a>
+        </div>
+        <ul class="hero__points reveal" data-delay="320">
+          <li>Modern, mobile-friendly website</li>
+          <li>Answers common questions 24/7</li>
+          <li>No long contracts</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Infinite sliding showcase of real website screenshots -->
+    <div class="showcase reveal" data-delay="400" id="showcase" aria-label="A selection of websites we've designed">
+      <div class="showcase__track" id="showcase-track">
+        <figure class="showcase__card"><img src="assets/site-1.png" alt="" loading="lazy" /></figure>
+        <figure class="showcase__card"><img src="assets/site-2.png" alt="" loading="lazy" /></figure>
+        <figure class="showcase__card"><img src="assets/site-3.png" alt="" loading="lazy" /></figure>
+        <figure class="showcase__card"><img src="assets/site-4.png" alt="" loading="lazy" /></figure>
+        <figure class="showcase__card"><img src="assets/site-5.png" alt="" loading="lazy" /></figure>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ SERVICES ============ -->
+  <section id="services" class="section section--services">
+    <div class="container">
+      <p class="eyebrow reveal">What we do</p>
+      <h2 class="h2 reveal">Three things. Done well.</h2>
+      <p class="lede lede--left reveal" data-delay="80">
+        A website that shows off your business. A chatbot that answers your customers. And the hosting to keep both running smoothly. That's it — we don't try to do everything.
+      </p>
+
+      <div class="services">
+
+        <article class="service reveal">
+          <div class="service__head">
+            <div class="service__icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            </div>
+            <span class="tag">Service 01</span>
+          </div>
+          <h3 class="h3">Website Development</h3>
+          <p>A modern website made just for your business. Designed to turn visitors into customers, and built to work perfectly on phones.</p>
+          <ul class="ticks">
+            <li>Custom design made just for your business</li>
+            <li>Looks great on phones, tablets, and computers</li>
+            <li>Simple contact forms so customers can reach you</li>
+            <li>Edit your own words anytime — no tech skills needed</li>
+          </ul>
+        </article>
+
+        <article class="service reveal" data-delay="120">
+          <div class="service__head">
+            <div class="service__icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+            </div>
+            <span class="tag">Service 02</span>
+          </div>
+          <h3 class="h3">FAQ Chatbots</h3>
+          <p>A friendly chatbot that lives on your website. It greets visitors, answers common questions, and takes a message when a real person is needed.</p>
+          <ul class="ticks">
+            <li>Trained on your real answers, in your own words</li>
+            <li>Replies in seconds, day or night</li>
+            <li>Takes a message when a real person is needed</li>
+            <li>Works on your website and messaging apps</li>
+            <li>You see every chat in one simple inbox</li>
+          </ul>
+        </article>
+
+        <article class="service reveal" data-delay="240">
+          <div class="service__head">
+            <div class="service__icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L3 7v6c0 5 4 9 9 10 5-1 9-5 9-10V7l-9-5z"/></svg>
+            </div>
+            <span class="tag">Service 03</span>
+          </div>
+          <h3 class="h3">Hosting &amp; Chatbot Management</h3>
+          <p>We keep your website online, your chatbot running, and everything working smoothly behind the scenes — so you never have to think about the tech.</p>
+          <ul class="ticks">
+            <li>Website hosting</li>
+            <li>Chatbot hosting</li>
+            <li>Security updates</li>
+            <li>Technical support when you need it</li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ CHATBOT DEMONSTRATION ============ -->
+  <section id="growth" class="section section--growth">
+    <div class="container">
+      <p class="eyebrow reveal">See it in action</p>
+      <h2 class="h2 reveal">The questions your customers <em>always ask.</em></h2>
+      <p class="lede lede--left reveal" data-delay="80">
+        Your chatbot is set up with your real business information, so it can answer
+        the everyday questions — hours, services, pricing, and how to get in touch.
+      </p>
+
+      <div class="growth reveal" data-delay="160" id="growth-card">
+        <div class="growth__chrome">
+          <span></span><span></span><span></span>
+          <div class="growth__url">your-business.com</div>
+          <div class="growth__live"><span class="growth__live-dot"></span>Example</div>
+        </div>
+
+        <div class="demo">
+
+          <!-- Left: capability steps that light up as the chat progresses -->
+          <div class="demo__steps">
+            <p class="demo__eyebrow">What it handles</p>
+            <h3 class="demo__title">Common questions,<br/>answered in your words.</h3>
+
+            <ul class="demo__list" id="demo-steps">
+              <li class="demo__step" data-step="1">
+                <span class="demo__step-num">01</span>
+                <div class="demo__step-text">
+                  <strong>Business hours</strong>
+                  <small>"Are you open today?" — answered instantly.</small>
+                </div>
+              </li>
+              <li class="demo__step" data-step="2">
+                <span class="demo__step-num">02</span>
+                <div class="demo__step-text">
+                  <strong>Services &amp; pricing</strong>
+                  <small>What you offer and what it costs.</small>
+                </div>
+              </li>
+              <li class="demo__step" data-step="3">
+                <span class="demo__step-num">03</span>
+                <div class="demo__step-text">
+                  <strong>Appointments &amp; contact</strong>
+                  <small>Collects their details so you can follow up.</small>
+                </div>
+              </li>
+              <li class="demo__step" data-step="4">
+                <span class="demo__step-num">04</span>
+                <div class="demo__step-text">
+                  <strong>Hands off when needed</strong>
+                  <small>Anything it can't answer goes straight to you.</small>
+                </div>
+              </li>
+            </ul>
+
+            <p class="demo__disclaimer">The chatbot answers the questions it's been set up with. For anything outside that, it takes a message and passes it to you — it never makes up answers.</p>
+          </div>
+
+          <!-- Right: a chat playing out — same UI we ship to clients -->
+          <div class="demo__chat">
+            <header class="demo__chat-head">
+              <div class="demo__chat-brand">
+                <div class="demo__chat-avatar" aria-hidden="true">
+                  <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14 6 H50 A8 8 0 0 1 58 14 V40 A8 8 0 0 1 50 48 H28 L16 60 V48 H14 A8 8 0 0 1 6 40 V14 A8 8 0 0 1 14 6 Z" stroke="#fff" stroke-width="4" stroke-linejoin="round"/>
+                    <path d="M24 19 L17 27 L24 35" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M29 19 H45 L29 35 H45" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="demo__chat-brand-text">
+                  <strong>Business Assistant</strong>
+                  <span><i class="demo__chat-online" aria-hidden="true"></i> Online · replies instantly</span>
+                </div>
+              </div>
+            </header>
+
+            <div class="demo__chat-body" id="demo-chat-body" aria-live="polite"></div>
+
+            <div class="demo__chat-form" aria-hidden="true">
+              <div class="demo__chat-input">Type your question…</div>
+              <div class="demo__chat-send">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 2L11 13"/>
+                  <path d="M22 2l-7 20-4-9-9-4z"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="growth__sweep" aria-hidden="true"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHAT YOU GET ============ -->
+  <section id="what" class="section section--what">
+    <div class="container">
+      <p class="eyebrow reveal">What you get</p>
+      <h2 class="h2 reveal">Everything you need, nothing you don't.</h2>
+
+      <div class="what">
+        <div class="what__item reveal">
+          <div class="what__icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><circle cx="12" cy="18" r="0.6" fill="currentColor"/></svg>
+          </div>
+          <h4>Built to work perfectly on phones</h4>
+          <p>Most of your customers will see it on their phone first — so we start there.</p>
+        </div>
+
+        <div class="what__item reveal" data-delay="60">
+          <div class="what__icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h7l-1 8 10-12h-7z"/></svg>
+          </div>
+          <h4>Pages that load quickly</h4>
+          <p>No bloated builders or slow plugins. Your pages open fast, even on slower internet.</p>
+        </div>
+
+        <div class="what__item reveal" data-delay="120">
+          <div class="what__icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7A8.38 8.38 0 0 1 4 11.5a8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+          </div>
+          <h4>A friendly chatbot</h4>
+          <p>Answers common questions about your business, day or night, in your own tone.</p>
+        </div>
+
+        <div class="what__item reveal" data-delay="180">
+          <div class="what__icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v12H5.5L4 17.5z"/></svg>
+          </div>
+          <h4>Simple contact forms</h4>
+          <p>Easy forms so customers can reach you — messages come straight to your inbox.</p>
+        </div>
+
+        <div class="what__item reveal" data-delay="240">
+          <div class="what__icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><rect x="7" y="20" width="10" height="2" rx="1"/></svg>
+          </div>
+          <h4>Looks great on every screen</h4>
+          <p>Phones, tablets, or computers — your website looks polished and works smoothly everywhere.</p>
+        </div>
+
+        <div class="what__item reveal" data-delay="300">
+          <div class="what__icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L3 7v6c0 5 4 9 9 10 5-1 9-5 9-10V7l-9-5z"/></svg>
+          </div>
+          <h4>Hosting &amp; Chatbot Management</h4>
+          <p>We keep your website online, your chatbot running, and everything working smoothly behind the scenes.</p>
+          <ul class="what__list">
+            <li>Website hosting</li>
+            <li>Chatbot hosting</li>
+            <li>Security updates</li>
+            <li>Technical support when needed</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHO WE WORK WITH ============ -->
+  <section id="who" class="section section--who">
+    <div class="container">
+      <p class="eyebrow reveal">Who we work with</p>
+      <h2 class="h2 reveal">Built for local business owners.</h2>
+      <p class="lede lede--left reveal" data-delay="80">
+        We work with people who run real local businesses — the kind where a clean website and quick answers genuinely make a difference.
+      </p>
+
+      <div class="who">
+        <div class="who__item reveal">
+          <div class="who__icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2l3 4-3 4M18 2l-3 4 3 4M3 14l9 8 9-8"/></svg>
+          </div>
+          <h4>Barbershops</h4>
+          <p>Show off your work and answer the everyday questions — hours, services, pricing — automatically.</p>
+        </div>
+        <div class="who__item reveal" data-delay="60">
+          <div class="who__icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5.5C9 2.5 5 4 5 8c0 4 3 7 7 13 4-6 7-9 7-13 0-4-4-5.5-7-2.5z"/></svg>
+          </div>
+          <h4>Dentists</h4>
+          <p>A warm, calm website and a chatbot that handles the simple questions before your staff have to.</p>
+        </div>
+        <div class="who__item reveal" data-delay="120">
+          <div class="who__icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
+          </div>
+          <h4>Tutors &amp; Coaches</h4>
+          <p>Show what you teach, answer common questions, and collect enquiries without the back-and-forth.</p>
+        </div>
+        <div class="who__item reveal" data-delay="180">
+          <div class="who__icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 4v16M18 4v16M2 8h4M2 16h4M18 8h4M18 16h4M6 12h12"/></svg>
+          </div>
+          <h4>Gyms &amp; Studios</h4>
+          <p>A clean website for your classes, and a chatbot that answers questions any time — even at 11pm.</p>
+        </div>
+        <div class="who__item reveal" data-delay="240">
+          <div class="who__icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="17" r="3"/><circle cx="17" cy="17" r="3"/><path d="M3 14V8a2 2 0 0 1 2-2h9l4 4h2a2 2 0 0 1 2 2v2"/></svg>
+          </div>
+          <h4>Auto Repair Shops</h4>
+          <p>Quick contact forms and a chatbot that answers "do you fix this?" right away.</p>
+        </div>
+        <div class="who__item reveal" data-delay="300">
+          <div class="who__icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></svg>
+          </div>
+          <h4>Other local services</h4>
+          <p>Cleaners, plumbers, salons, repair shops — anyone where a clean website and quick replies help win the work.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SAMPLE PROJECTS ============ -->
+  <section id="samples" class="section section--samples">
+    <div class="container">
+      <p class="eyebrow reveal">Sample projects</p>
+      <h2 class="h2 reveal">Every business is different. Your website should be too.</h2>
+      <p class="lede lede--left reveal" data-delay="80">
+        These are <strong>sample concepts</strong> — not real clients. They show how we design completely different websites for completely different businesses.
+      </p>
+
+      <div class="samples">
+
+        <!-- =========== DENTAL — clean, bright, medical =========== -->
+        <article class="sample reveal">
+          <div class="sample__chip">Sample</div>
+          <div class="sample__preview" aria-hidden="true">
+            <div class="sample__chrome"><span></span><span></span><span></span></div>
+            <div class="sd">
+              <div class="sd__brand"><span class="sd__brand-mark"></span> Brightsmile Dental</div>
+              <div class="sd__hero">
+                <div class="sd__h1">Caring dentistry<br/>for the whole family.</div>
+                <div class="sd__sub">New patients welcome</div>
+                <div class="sd__btn">Book a check-up</div>
+              </div>
+              <div class="sd__row">
+                <span class="sd__pill">Open Mon–Sat</span>
+                <span class="sd__pill">Family friendly</span>
+                <span class="sd__pill">Gentle care</span>
+              </div>
+            </div>
+          </div>
+          <div class="sample__meta">
+            <h4>Dental Website</h4>
+            <p>Calm, bright, and trustworthy. Designed to put nervous patients at ease and make booking simple.</p>
+            <span class="sample__cat">Dental · Concept</span>
+          </div>
+        </article>
+
+        <!-- =========== BARBERSHOP — dark, bold, masculine =========== -->
+        <article class="sample reveal" data-delay="100">
+          <div class="sample__chip">Sample</div>
+          <div class="sample__preview" aria-hidden="true">
+            <div class="sample__chrome"><span></span><span></span><span></span></div>
+            <div class="sb">
+              <div class="sb__strap">BARBERSHOP · EST. 2018</div>
+              <div class="sb__inner">
+                <div>
+                  <div class="sb__top">Classic cuts. Modern chairs.</div>
+                  <div class="sb__h1">SHARP<br/>&amp; CO.<span>.</span></div>
+                  <div class="sb__tag">Walk-ins welcome</div>
+                </div>
+                <div class="sb__btn">Book a cut →</div>
+                <div class="sb__services">
+                  <span>Cuts</span><span>Shaves</span><span>Beards</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sample__meta">
+            <h4>Barbershop Website</h4>
+            <p>Bold, dark, and premium. Strong typography and confident layout — built for a shop that takes its craft seriously.</p>
+            <span class="sample__cat">Barbershop · Concept</span>
+          </div>
+        </article>
+
+        <!-- =========== GYM — high energy, fitness =========== -->
+        <article class="sample reveal" data-delay="200">
+          <div class="sample__chip">Sample</div>
+          <div class="sample__preview" aria-hidden="true">
+            <div class="sample__chrome"><span></span><span></span><span></span></div>
+            <div class="sg">
+              <div class="sg__top">Forge Strength Gym</div>
+              <div class="sg__h1">TRAIN<br/><span>HARD.</span></div>
+              <div class="sg__sub">Get stronger — every week.</div>
+              <div class="sg__cta">Start free trial →</div>
+              <div class="sg__stats">
+                <div class="sg__stat"><strong>24/7</strong><small>Open</small></div>
+                <div class="sg__stat"><strong>Coached</strong><small>Classes</small></div>
+                <div class="sg__stat"><strong>Free</strong><small>Trial week</small></div>
+              </div>
+            </div>
+          </div>
+          <div class="sample__meta">
+            <h4>Gym Website</h4>
+            <p>High energy and powerful. Big type, bold colors, and a clear focus on getting visitors to start the free trial.</p>
+            <span class="sample__cat">Gym · Concept</span>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="samples__note reveal">All sample projects above are concepts created by ZibCore. They are not affiliated with any real business of the same name.</p>
+    </div>
+  </section>
+
+  <!-- ============ PROCESS ============ -->
+  <section id="process" class="section section--process">
+    <div class="container">
+      <p class="eyebrow reveal">How it works</p>
+      <h2 class="h2 reveal">Four simple steps.</h2>
+
+      <ol class="process">
+        <li class="reveal">
+          <span class="process__step">01</span>
+          <div>
+            <h4>A short chat.</h4>
+            <p>You tell us about your business. We tell you honestly what a website, chatbot, or both would actually do for you.</p>
+          </div>
+        </li>
+        <li class="reveal" data-delay="80">
+          <span class="process__step">02</span>
+          <div>
+            <h4>You see a real preview.</h4>
+            <p>Not a mood board — real screens of your real website. We make changes until you love it.</p>
+          </div>
+        </li>
+        <li class="reveal" data-delay="160">
+          <span class="process__step">03</span>
+          <div>
+            <h4>We build it.</h4>
+            <p>We build the website and teach the chatbot your real answers. You check everything as we go.</p>
+          </div>
+        </li>
+        <li class="reveal" data-delay="240">
+          <span class="process__step">04</span>
+          <div>
+            <h4>We launch &amp; look after it.</h4>
+            <p>Your site goes live. After that, we keep your website online and your chatbot running — so you never have to think about the tech.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ WHY US ============ -->
+  <section class="section section--why-us">
+    <div class="container">
+      <p class="eyebrow reveal">Why ZibCore</p>
+      <h2 class="h2 reveal">Built different — on purpose.</h2>
+
+      <div class="why">
+        <div class="why__item reveal">
+          <h4>You talk directly to our team.</h4>
+          <p>No account managers, no junior staff handed your project. Our team personally designs every website and trains every chatbot. The people you brief are the people doing the work.</p>
+        </div>
+        <div class="why__item reveal" data-delay="80">
+          <h4>One clear price. No surprise bills.</h4>
+          <p>You see the setup fee and the monthly fee on the pricing page. That's it. No surprise extras five weeks in.</p>
+        </div>
+        <div class="why__item reveal" data-delay="160">
+          <h4>You own everything we make.</h4>
+          <p>Your website, your words, your chatbot — all yours. If you ever leave, you take it with you. No lock-in.</p>
+        </div>
+        <div class="why__item reveal" data-delay="240">
+          <h4>Honest about what we do.</h4>
+          <p>We focus only on what we actually deliver: websites, FAQ chatbots, and the hosting to keep them running. We won't sell you services we don't provide.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ASK THE ASSISTANT ============ -->
+  <section class="section section--ask">
+    <div class="container container--center">
+      <p class="eyebrow reveal">Got a question?</p>
+      <h2 class="h2 reveal">Ask our <em>Business Assistant</em>.</h2>
+      <p class="lede reveal" data-delay="80">
+        Pricing, timelines, ownership, support — get instant answers from the chatbot. It lives in the corner of every page.
+      </p>
+      <button type="button" class="btn btn--primary btn--lg reveal" data-delay="160" data-zc-chat-open>
+        Open chat ↗
+      </button>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT FORM ============ -->
+  <!--
+    FORMSPREE SETUP
+    1. Sign up at https://formspree.io/ (free tier available)
+    2. Create a new form, copy the endpoint URL — format: https://formspree.io/f/abcdefgh
+    3. Replace mwvjorje below with the part after /f/
+  -->
+  <section id="contact" class="section section--contact-form">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Left column: headline + trust signals -->
+        <div class="contact-copy reveal">
+          <p class="eyebrow">Get a free quote</p>
+          <h2 class="h2">
+            Ready to get your<br/>
+            business <em>online?</em>
+          </h2>
+          <p class="lede lede--left">
+            Tell us about your business and we'll get back to you within 24 hours.
+          </p>
+
+          <ul class="contact-trust">
+            <li>
+              <span class="contact-trust__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </span>
+              <div>
+                <strong>24-hour response</strong>
+                <small>Our team replies personally — usually within a few hours.</small>
+              </div>
+            </li>
+            <li>
+              <span class="contact-trust__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </span>
+              <div>
+                <strong>No obligation quote</strong>
+                <small>Free, honest pricing. No pressure to commit.</small>
+              </div>
+            </li>
+            <li>
+              <span class="contact-trust__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+              </span>
+              <div>
+                <strong>Talk to the builder</strong>
+                <small>You speak directly with our team — never a sales rep.</small>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Right column: glass form card -->
+        <div class="contact-card reveal" data-delay="120">
+
+          <form id="contact-form"
+                class="contact-form"
+                action="https://formspree.io/f/mwvjorje"
+                method="POST"
+                novalidate>
+
+            <!-- Row 1: Name + Business -->
+            <div class="contact-row">
+              <div class="contact-field">
+                <label for="cf-name">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                  Full name *
+                </label>
+                <input id="cf-name" name="name" type="text" required autocomplete="name" placeholder="Jane Smith" />
+              </div>
+              <div class="contact-field">
+                <label for="cf-business">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></svg>
+                  Business name *
+                </label>
+                <input id="cf-business" name="business" type="text" required autocomplete="organization" placeholder="Smith's Salon" />
+              </div>
+            </div>
+
+            <!-- Row 2: Email + Phone -->
+            <div class="contact-row">
+              <div class="contact-field">
+                <label for="cf-email">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                  Email *
+                </label>
+                <input id="cf-email" name="email" type="email" required autocomplete="email" placeholder="you@business.com" />
+              </div>
+              <div class="contact-field">
+                <label for="cf-phone">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                  Phone <span class="contact-optional">(optional)</span>
+                </label>
+                <input id="cf-phone" name="phone" type="tel" autocomplete="tel" placeholder="(555) 123-4567" />
+              </div>
+            </div>
+
+            <!-- Service interest as pill toggles -->
+            <div class="contact-field">
+              <label>Which service are you interested in? *</label>
+              <div class="contact-pills" role="radiogroup" aria-label="Which service are you interested in?">
+                <label class="contact-pill">
+                  <input type="radio" name="service" value="Website" required />
+                  <span class="contact-pill__inner">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+                    Website
+                  </span>
+                </label>
+                <label class="contact-pill">
+                  <input type="radio" name="service" value="FAQ Chatbot" />
+                  <span class="contact-pill__inner">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                    FAQ Chatbot
+                  </span>
+                </label>
+                <label class="contact-pill">
+                  <input type="radio" name="service" value="Bundle (Website + FAQ Chatbot)" />
+                  <span class="contact-pill__inner">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+                    Bundle
+                  </span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Preferred contact methods -->
+            <div class="contact-field">
+              <label>How should we reach out? <span class="contact-optional">(pick your top two)</span></label>
+              <div class="contact-prefs" data-contact-prefs>
+                <div class="contact-prefs__col">
+                  <span class="contact-prefs__rank">1st choice</span>
+                  <div class="contact-pills contact-pills--3" role="radiogroup" aria-label="Most preferred contact method">
+                    <label class="contact-pill">
+                      <input type="radio" name="preferred_contact" value="Email" required />
+                      <span class="contact-pill__inner">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        Email
+                      </span>
+                    </label>
+                    <label class="contact-pill">
+                      <input type="radio" name="preferred_contact" value="Text" />
+                      <span class="contact-pill__inner">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                        Text
+                      </span>
+                    </label>
+                    <label class="contact-pill">
+                      <input type="radio" name="preferred_contact" value="Phone call" />
+                      <span class="contact-pill__inner">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        Call
+                      </span>
+                    </label>
+                  </div>
+                </div>
+                <div class="contact-prefs__col">
+                  <span class="contact-prefs__rank">2nd choice</span>
+                  <div class="contact-pills contact-pills--3" role="radiogroup" aria-label="Second preferred contact method">
+                    <label class="contact-pill">
+                      <input type="radio" name="alt_contact" value="Email" />
+                      <span class="contact-pill__inner">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        Email
+                      </span>
+                    </label>
+                    <label class="contact-pill">
+                      <input type="radio" name="alt_contact" value="Text" />
+                      <span class="contact-pill__inner">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                        Text
+                      </span>
+                    </label>
+                    <label class="contact-pill">
+                      <input type="radio" name="alt_contact" value="Phone call" />
+                      <span class="contact-pill__inner">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        Call
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Message -->
+            <div class="contact-field">
+              <label for="cf-message">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                Your message *
+              </label>
+              <textarea id="cf-message" name="message" required rows="5" placeholder="Ask a question, share a concern, or just reach out — write whatever you'd like us to know."></textarea>
+            </div>
+
+            <!-- Submit -->
+            <button type="submit" id="cf-submit" class="btn btn--primary btn--lg contact-submit">
+              <span class="contact-submit__label">Get Free Quote</span>
+              <span class="contact-submit__spinner" aria-hidden="true"></span>
+            </button>
+
+            <p class="contact-trust-line">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+              No spam. No obligations. Just a quick conversation about your business.
+            </p>
+
+            <p class="contact-error" id="cf-error" role="alert" aria-live="polite"></p>
+          </form>
+
+          <!-- Success state — hidden until form submits successfully -->
+          <div class="contact-success" id="cf-success" hidden>
+            <div class="contact-success__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <h3>Thank you!</h3>
+            <p>We received your message and will get back to you shortly.</p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Direct contact strip -->
+      <div class="contact-direct reveal" data-delay="200">
+        <p class="contact-direct__intro">Or reach out directly</p>
+        <div class="contact-direct__items">
+          <a class="contact-direct__item" href="mailto:nazib.zibcore@gmail.com">
+            <span class="contact-direct__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </span>
+            <span class="contact-direct__text">
+              <strong>nazib.zibcore@gmail.com<span class="contact-direct__badge">Preferred</span></strong>
+              <small>Email — fastest way to reach our team</small>
+            </span>
+          </a>
+          <a class="contact-direct__item" href="sms:+19175824975">
+            <span class="contact-direct__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </span>
+            <span class="contact-direct__text">
+              <strong>(917) 582-4975</strong>
+              <small>Text message — also welcome</small>
+            </span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="foot">
+    <div class="container foot__row">
+      <div class="foot__brand">
+        <img src="logo.svg" alt="" class="nav__mark" width="22" height="22" />
+        <span class="foot__brand-name">
+          <span class="nav__word-a">Zib</span><span class="nav__word-b">Core</span>
+          <small>Websites. FAQ Chatbots. Real Care.</small>
+        </span>
+      </div>
+      <nav class="foot__nav" aria-label="Footer">
+        <a href="#services">Services</a>
+        <a href="#what">What You Get</a>
+        <a href="#samples">Samples</a>
+        <a href="plans.html">Pricing</a>
+        <a href="#contact">Contact</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+      <p class="foot__copy">© <span id="year"></span> ZibCore. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+  <script src="chatbot.js" defer></script>
+  <script src="cart.js" defer></script>
+</body>
+</html>

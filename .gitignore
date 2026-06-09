@@ -1,0 +1,14 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / tooling
+.claude/
+*.log
+
+# Dependencies (none used, but just in case)
+node_modules/
+
+# Vercel
+.vercel/
