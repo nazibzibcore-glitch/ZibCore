@@ -468,6 +468,27 @@ a { color: inherit; text-decoration: none; }
   .hero__points { justify-content: flex-start; }
 }
 
+/* ============ Quote page header ============ */
+.quote-hero {
+  padding: 150px 0 10px;
+  text-align: center;
+}
+.quote-hero .h1 {
+  margin: 14px auto 0;
+  max-width: 16ch;
+}
+.quote-hero .lede { margin-top: 22px; }
+.section--quote-form { padding-top: clamp(40px, 6vw, 70px); }
+
+/* Small "or reach us directly" line under the homepage/pricing CTA */
+.cta-direct {
+  margin: 22px 0 0;
+  font-size: 14px;
+  color: var(--ink-mute);
+}
+.cta-direct a { color: var(--accent); font-weight: 500; }
+.cta-direct a:hover { text-decoration: underline; }
+
 /* ============ Legal pages (privacy / terms) ============ */
 .legal { padding: 140px 0 90px; }
 .legal__wrap { max-width: 760px; }
